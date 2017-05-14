@@ -1,3 +1,28 @@
+
  input {
   background: #fff  no-repeat 98% center;
+}
+
+button {
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input, label, select {
+display: block ;
+clear : none;
+margin: 13px;
+}
+
+input[type="checkbox"]{
+  display: inline;
+}
+
+input:checked{
+  width: 18px;
+  height: 18px;
 }
