@@ -11,30 +11,30 @@
 	</header>
 	<section id="formulario">
 		<p>Bienvenid@s a la Tetería Té como Señora. Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema de venta online y cajas del mes.</p>
-		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
-		<form action="">
-			<label for="Nombre Dueño"> Nombre:</label>
-			<input type="text">
-			<label for="Nombre mascota"> Apellido:</label>
-			<input type="text">
-			<label for="Email"> Correo Electrónico:</label> 
-			<input type="email">
+		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario.</p><br>
+		<form action="" class="formu">
+			<label for="Nombre"> Nombre:</label>
+			<input type="text" name="Nombre" id="nom"  title="complete el campo" required>
+			<label for="Apellido"> Apellido:</label>
+			<input type="text" id="ape" >
+			<label for="Email"> Correo: </label>
+			<input type="email"  id="mail" >
 			<label for="Dirección">Dirección: </label>
-			<input type="text">
+			<input type="text" id="direc" >
 			<label for="Teléfono">Teléfono:</label>
-			<input type="text">
+			<input type="tel" id="fono">
 			<label for="">Selecciona un pack:</label>
-			<select name="" id="">
+			<select name="" id="seleccion" >
 				<option value="">Escoje tu opción</option>
 				<option value="">Pack de té clásico (Té negro)</option>
 				<option value="">Pack frutales (Hierbas y té con aromatizado con fruta</option>
 				<option value="">Pack variedades (Té verde, rojo y blanco)</option>
 			</select>
 			<label for=""></label>
-			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
-			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
+			<input type="checkbox" > Recibe nuestro newsletter mensual con actividades y sorteos.
+			<button type="submit" checked="checked" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
 		</form>
-	</section>
+	</section><br><br>
 	<section id="clientes">
 		<!-- Acá van los datos de ingresados por los clientes -->
 	</section>
