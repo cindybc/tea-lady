@@ -1,28 +1,56 @@
 
- input {
-  background: #fff  no-repeat 98% center;
+body{
+  background-image: url(img/images.jpg);
+  background-repeat: repeat-x;
+  background-color: #CAF6B3;
 }
 
+p {
+  font-family: Imprint MT Shadow;
+  font-style: normal;
+  }
+
+
+h1 {
+   font-family: Imprint MT Shadow;
+   font-size: 50px;
+   color: white;
+}
+
+
+input {
+    background: #fff  no-repeat 98% center;
+}
+
+
 button {
-  background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 8px 15px;
-    cursor: pointer;
-    margin: 5px;
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 8px 15px;
+   cursor: pointer;
+   margin: 5px;
+   border-radius: 4px;
 }
 
 input, label, select {
-display: block ;
-clear : none;
-margin: 13px;
+   display: block ;
+   clear : none;
+   margin: 13px;
 }
 
 input[type="checkbox"]{
-  display: inline;
+   display: inline;
 }
 
 input:checked{
-  width: 18px;
-  height: 18px;
+   width: 18px;
+   height: 18px;
+}
+
+select {
+   width: 25%;
+   padding: 5px 10px;
+   border-radius: 30px;
+
 }
