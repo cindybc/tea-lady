@@ -1,11 +1,8 @@
-
 body{
-  background-image: url(img/images.jpg);
-  background-repeat: repeat-x;
-  background-color: #CAF6B3;
+  background: url(img/tecito.png);
 }
 
-p {
+#clientes, p {
   font-family: Imprint MT Shadow;
   font-style: normal;
   }
@@ -14,14 +11,13 @@ p {
 h1 {
    font-family: Imprint MT Shadow;
    font-size: 50px;
-   color: white;
+
 }
 
 
 input {
     background: #fff  no-repeat 98% center;
 }
-
 
 button {
    background-color: #4CAF50;
@@ -52,5 +48,14 @@ select {
    width: 25%;
    padding: 5px 10px;
    border-radius: 30px;
+}
 
+#validacion{
+  color: red;
+  font-family: Imprint MT Shadow;
+  }
+hr {
+  border: 0 ;
+  border-top: 4px double blue;
+  width: 90%;
 }
