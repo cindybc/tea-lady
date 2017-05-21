@@ -28,6 +28,13 @@ function mostrarData(){
   else if(!document.getElementById("aceptar").checked){
     document.getElementById("validacion").innerHTML= "* Acepte las condiciones";
   }else {
+    document.getElementById("validacion").innerHTML="";
+    document.getElementById("nom").value= "";
+    document.getElementById("ape").value= "";
+    document.getElementById("mail").value= "";
+    document.getElementById("direc").value= "";
+    document.getElementById("fono").value= "";
+    document.getElementById("opciones").value= "";
     document.getElementById("clientes").innerHTML="<b>Nombre :</b> " + name + "<br>" + "<b>Apellido :</b> "+ surname + "<br>"
      +"<b>Email :</b> "+ email + "<br>" +"<b>Dirección :</b> "+ address + "<br>" + "<b>Teléfono :</b> "+ phoneNumber + "<br>" + "<b>Opción Seleccionada :</b> " + select2;
   }

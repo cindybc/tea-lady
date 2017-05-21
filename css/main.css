@@ -1,5 +1,5 @@
 body{
-  background: url(img/tecito.png);
+  background-image: url(../img/variedades.jpg);
 }
 
 #clientes, p {
@@ -11,7 +11,11 @@ body{
 h1 {
    font-family: Imprint MT Shadow;
    font-size: 50px;
-
+   text-align: center;
+   padding: 40px;
+   background-color: rgba(63, 222, 70, 0.72);
+   border-radius: 50px;
+   margin: 20px 80px; 
 }
 
 
@@ -29,10 +33,19 @@ button {
    border-radius: 4px;
 }
 
+#formulario{
+    padding: 40px;
+    background-color: rgba(236, 230, 173, 0.81);
+    box-sizing: border-box;
+    margin: 10px 80px;
+    border-radius: 20px;
+}
+
 input, label, select {
-   display: block ;
-   clear : none;
-   margin: 13px;
+    display: block;
+    clear: none;
+    margin: 13px;
+    border-radius: 10px;
 }
 
 input[type="checkbox"]{
@@ -54,8 +67,25 @@ select {
   color: red;
   font-family: Imprint MT Shadow;
   }
+
 hr {
-  border: 0 ;
-  border-top: 4px double blue;
+  border-top: 4px double white;
   width: 90%;
+}
+
+h2{
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.61);
+    border-radius: 20px;
+    margin: 10px
+}
+
+#clientes{
+    margin: 10px;
+    padding: 20px;
+    font-family: Imprint MT Shadow;
+    font-style: normal;
+    background-color: rgba(237, 20, 61, 0.81);
+    border-radius: 20px;
+    color: white;
 }
